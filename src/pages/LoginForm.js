@@ -24,7 +24,7 @@ const LoginForm = () => {
             const token = resp.token
             setToken(token)
         } catch (e){
-         setError(e.response.data.error.message)
+         setError(e)
          return
         }
         navigate('/')
