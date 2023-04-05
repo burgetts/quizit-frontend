@@ -9,7 +9,7 @@ import { useFields } from '../utils/hooks';
 
 const LoginForm = () => {
     const navigate = useNavigate()
-    const { setToken } = useContext(UserContext)
+    const { setToken, request } = useContext(UserContext)
     const INITIAL_STATE = {
         username: '',
         password: ''
@@ -20,8 +20,8 @@ const LoginForm = () => {
 
     async function login({username, password}) {
         try {
-            const resp = await axios.post(`auth/token`, {username, password})
-            const token = resp.data.token
+            const resp = await request(`auth/token`, {username, password}, "post")
+            const token = resp.token
             setToken(token)
         } catch (e){
          setError(e.response.data.error.message)

@@ -34,6 +34,7 @@ function App() {
         console.debug("API Call:", endpoint, data, method);
     
         console.debug(data)
+        console.log(BASE_URL)
         const url = `${BASE_URL}/${endpoint}`;
         const headers = { Authorization: `Bearer ${token}` } 
         const params = (method === "get")

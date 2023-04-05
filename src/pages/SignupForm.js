@@ -3,10 +3,9 @@ import { useNavigate } from 'react-router-dom';
 import '../css/Form.css';
 import UserContext from '../utils/UserContext';
 import { useFields } from '../utils/hooks';
-import axios from 'axios';
 
 const SignupForm = () => {
-    const { setToken } = useContext(UserContext)
+    const { setToken, request } = useContext(UserContext)
     const navigate = useNavigate()
     const [errors, setErrors] = useState([])
 
@@ -21,8 +20,8 @@ const SignupForm = () => {
 
     // register new user and store their token in localStorage
     async function signup(user) {
-        const resp = await axios.post(`auth/register`, user)
-        const token = resp.data.token
+        const resp = await request(`auth/register`, user, "post")
+        const token = resp.token
         if (!token) return
         setToken(token)
      }
