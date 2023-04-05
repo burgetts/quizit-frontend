@@ -9,7 +9,7 @@ import { useLocalStorage } from './utils/hooks';
 import UserContext from './utils/UserContext';
 
 const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
-
+console.log(BASE_URL)
 function App() {
     const [token, setToken] = useLocalStorage('token', null)
     const [currentUser, setCurrentUser] = useState(null)
