@@ -31,7 +31,8 @@ const SignupForm = () => {
         try {
             await signup(formData)   
         } catch (e) {
-            setErrors(e.response.data.error.message)
+            console.log(e)
+            setErrors(e.response.error.message)
             return
         }
         navigate('/')
