@@ -1,6 +1,8 @@
 # QuizIt
 QuizIt is a platform where you can create and practice sets of flashcards with your study buddies. Groups allow users to chat with each other through posts and share sets of flashcards so you can ace your next test!
 
+Deployed here: https://guiltless-fowl.surge.sh/groups/2
+
 ## Demo credentials
 Use these credentials to check out the app without creating an account!
 - username: demouser
@@ -17,12 +19,12 @@ It's super easy to edit your flashcard sets to add new, customizable terms at an
 
 Practice flashcards on your own
 
-![screenshot of a practice set](https://github.com/burgetts/jobly-frontend/blob/main/UserSetPracticeScreenshot.png).
+![screenshot of a practice set](https://github.com/burgetts/jobly-frontend/blob/main/UserSetPracticeScreenshot.png)
 
 Join groups with your friends to share posts and flashcard sets.
 
-![screenshot of a user's groups page](https://github.com/burgetts/jobly-frontend/blob/main/UserGroupsScreenshot.png).
-![screenshot of a practice set](https://github.com/burgetts/jobly-frontend/blob/main/UserGroupScreenshot.png).
+![screenshot of a user's groups page](https://github.com/burgetts/jobly-frontend/blob/main/UserGroupsScreenshot.png)
+![screenshot of a practice set](https://github.com/burgetts/jobly-frontend/blob/main/UserGroupScreenshot.png)
 
 
 
