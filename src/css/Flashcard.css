@@ -1,0 +1,138 @@
+.Flashcard-side-one,
+.Flashcard-side-two {
+    height: 55vh;
+    width: 50vw;
+    background-color: white;
+    margin: 2% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sideOne img {
+    height: 200px;
+    width: 200px;
+}
+
+.Flashcard-h1,
+.Flashcard-h2,
+.Flashcard-h3 {
+    color: white;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+
+
+.Flashcard-text {
+    font-size: medium;
+}
+
+ /* CHECK OUT REACT CARD FLIP */
+ .sideOne {
+    width: 50vw;
+    height: 50vh;
+    background: white;
+    font-size: 40px;
+    color: black;
+    margin: 2% auto;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+     
+.sideTwo {
+    width: 50vw;
+    height: 50vh;
+    background: white;
+    font-size: 40px;
+    color: black;
+    margin: 20px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+}
+
+.sideOne:hover,
+.sideTwo:hover {
+    cursor: pointer;
+}
+   
+.Flashcard-navigate-buttons button {
+    width: 200px;
+    height: 55px;
+    margin: 10px 10px;
+    color: white;
+    background-color: #6DCFF6;
+    font-size: xxx-large;
+    border: 3px solid #6DCFF6;
+    border-radius: 10px;
+}
+
+.Flashcard-navigate-buttons button:hover {
+    cursor: pointer;
+}
+
+.Flashcard-top-buttons {
+    height: 2vh;
+    width: 50vw;
+    margin: 2% auto;
+}
+
+.Flashcard-shuffle-button,
+.Flashcard-start-over-button {
+    width: 90px;
+    height: 40px;
+    font-size: medium;
+    float: right;
+    margin-left: 20px;
+    margin-right: -2%;
+    background-color: rgb(3,3,90);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(3,3,90);
+    padding: 2px;
+}
+
+.Flashcard-shuffle-button:hover,
+.Flashcard-start-over-button:hover {
+    background-color: rgb(3,3,90,.79);
+    cursor: pointer;
+}
+.Flashcard-return-button {
+    width: 120px;
+    height: 40px;
+    font-size: medium;
+    float: right;
+    margin-left: -2%;
+
+    background-color: #6DCFF6;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #6DCFF6;
+    padding: 2px;
+    float: left;
+}
+
+.Flashcard-return-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.Flashcard-return-button:hover {
+    background-color: #6dcff6ca;
+    cursor: pointer;
+}
+
+.Flashcard-p {
+    color: white;
+}

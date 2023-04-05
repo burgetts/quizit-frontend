@@ -1,0 +1,18 @@
+.FlashcardsPage-profile-pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.FlashcardsPage-profile-pic-container {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 20px; 
+}
+
+.FlashcardsPage-username {
+    color: white;
+    font-size: xxx-large;
+    margin-left: 20px;
+}

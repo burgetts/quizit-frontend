@@ -1,0 +1,106 @@
+.Set {
+    height: 150px; 
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.733);
+    border-radius: 15px;
+    margin: 2% auto;
+    text-align: left;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.Set-h1 {
+    color: white;
+}
+
+.Set-name {
+    font-size: xx-large;
+    margin: 0;
+}
+
+.Set-description {
+    margin-top: 0;
+}
+
+.Set-buttons {
+    float: right;
+}
+
+.Set-buttons .delete-button {
+    background-color: red;
+    border: 2px solid red;
+}
+
+.Set-buttons .delete-button:hover {
+    background-color: rgba(255, 0, 0, 0.659);
+    border: 2px solid red;
+}
+
+.Set-buttons-practice {
+    font-size: large;
+    background-color:rgba(3,3,90);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(3,3,90);
+    margin-left: 10%;
+    height: 50px; 
+    width: 10%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.Set-buttons-practice a{
+    text-decoration: none;
+    color: white;
+}
+
+.Set-buttons-practice:hover {
+    background-color: rgba(3, 3, 90, 0.666);
+    cursor: pointer;
+    
+    
+}
+
+.Set-buttons button {
+    background-color: rgb(3,3,90);
+    color: white;
+    border-radius: 5px;
+    border: 3px solid rgb(3,3,90);
+    margin-right: 20px;
+    height: 30px; 
+}
+
+.Set-buttons button:hover {
+    background-color: rgba(3, 3, 90, 0.666);
+    cursor: pointer;
+}
+
+h2.Flashcards-h2  {
+    margin: 0 auto;
+    color: white;
+    font-size: x-large;
+    display: block;
+    
+}
+
+.Flashcard-container{
+    margin-top: 25px;
+}
+
+.Set-buttons-add-flashcard {
+    font-size: large;
+    background-color:red;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid red;
+    margin-left: 1%;
+    height: 50px; 
+    width: 12%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.Set-buttons-add-flashcard:hover {
+    background-color: rgba(255, 0, 0, 0.791);
+    cursor: pointer;
+}

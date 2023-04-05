@@ -1,0 +1,121 @@
+
+.Form-h1 {
+    margin-bottom: 10px;
+    font-size: xx-large;
+    color: rgba(3,3,90,1);
+} 
+
+.Form-container {
+    display: inline-block;
+    width: fit-content;
+    min-width: 30vw;
+    height: fit-content;
+    margin: 5% auto;
+    border-radius: 15px;
+    padding: 35px;
+
+    border: 5px solid #6DCFF6;
+    background-color: white;
+    outline: 5px solid #6DCFF6;
+    outline-style: inset;
+    outline-offset: 15px;
+    z-index: 9;
+    opacity: .99;
+    text-align: left;
+}
+
+.Form-container:after{
+    content: "";
+    opacity: 0.5;
+    top: 65px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+    background-image: url('../images/homeBackground3.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    height: 125%;
+
+}
+
+.Form-input {
+    width: 100%; 
+    display: block;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 15px; 
+    box-sizing: border-box; 
+
+
+    background-color: rgba(239, 226, 226, 1) ;
+    color: rgba(3, 3, 90, 0.6);
+    font-size: large;
+}
+
+.Form-label {
+    font-size: x-large;
+    text-align: left;
+    color: rgba(3,3,90,1);
+}
+
+.Form-button {
+   display: block;
+   margin: 20px auto;
+   height: 50px;
+   width: 100%;
+   font-size: large;
+   border-radius: 15px;
+   border: 3px solid rgba(3,3,90,1); 
+   background-color: rgba(3,3,90,1);
+   color: white;
+} 
+
+.Form-button:hover {
+    background-color: rgba(3,3,90,.8);
+    cursor: pointer;
+}  
+
+.Form-p {
+    color: rgb(3, 3, 90);
+    font-size: large;
+}
+
+.Error-message {
+    color: red;
+    padding: 0;
+    font-size: medium;
+    margin: 5px;
+
+}
+
+.UserProfileForm {
+    width: 50%;
+    height: 50%;
+    margin: 5% auto;
+    background-color: white;
+    opacity: 0.99;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.Form-image{
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.disabled {
+    opacity: 0.5;
+}
+
+.Success-message {
+    color: green;
+    font-size: medium;
+}

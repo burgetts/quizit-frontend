@@ -1,0 +1,98 @@
+.SplitFlashcard {
+    height: 400px;
+    width: 80%;
+    background-color: white;
+    margin: 20px auto;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+}
+
+.SplitFlashcard-side-one {
+    border-right: 1px dashed grey;
+}
+
+.SplitFlashcard-side-name {
+    font-size: large;
+    color: grey;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.SplitFlashcard-image {
+    height: 200px;
+    width: 250px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/* div that holds the flashcard button */
+.SplitFlashcard-flashcard-buttons {
+    margin-top: 220px;
+    margin-left: 430px;
+}
+
+.SplitFlashcard-flashcard-buttons button {
+    margin: 0 5px;
+    background-color: rgb(3,3,90);
+    border-radius: 5px;
+    border: 1px solid rgb(3,3,90);
+    color: white;
+    height: 30px; 
+}
+
+.SplitFlashcard-flashcard-buttons button:hover {
+    background-color: rgba(3, 3, 90, 0.719);
+    cursor: pointer;
+}
+
+.SplitFlashcard-flashcard-buttons .delete-button {
+   background-color: red;
+   border: 1px solid red;
+}
+
+.SplitFlashcard-flashcard-buttons .delete-button:hover {
+    background-color: rgba(255, 0, 0, 0.79);
+ }
+
+ .SplitFlashcard-image {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+ }
+
+.SplitFlashcardEdit-label {
+    display: block;
+    text-align: left;
+    margin-left: 15px;
+    font-size: large;
+}
+
+.SplitFlashcardEdit-input {
+    display: block;
+    margin-left: 15px;
+    font-size: large;
+    margin-bottom: 25px;
+    width: 75%;
+    padding: 12px;
+    border-radius: 15px;
+}
+
+.SplitFlashcard-edit-buttons {
+    margin-top: 150px;
+    float: right;
+    margin-right: 15px;
+    background-color: rgb(3,3,90);
+    border: 1px solid rgb(3,3,90);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.SplitFlashcard-edit-buttons:hover {
+    cursor: pointer;
+    background-color: rgba(3, 3, 90, 0.793);
+}

@@ -1,0 +1,37 @@
+.NewPostForm {
+    margin: 0 5%;
+    background-color: rgba(255, 255, 255, 0.689);
+    border-radius: 15px;
+    width: 75%;
+    height: fit-content;
+    padding: 25px 25px;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.NewPostForm-input {
+    float: left;
+    height: 50px;
+    width: 600px;
+    font-family: Jost;
+    font-size: large;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.NewPostForm-post-button {
+    width: 20px;
+    float: left;
+    height: 30px;
+    width: 90px;
+    margin-top: 10px;
+    background-color: rgb(3,3,90);
+    color: white;
+    border: 1px solid rgb(3,3,90);
+    border-radius: 5px;
+}
+
+.NewPostForm-post-button:hover {
+    cursor: pointer;
+    background-color: rgb(3,3,90,.79)
+}

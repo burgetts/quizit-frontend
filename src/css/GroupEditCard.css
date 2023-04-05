@@ -1,0 +1,43 @@
+.GroupEditCard {
+    margin: 1% 2%;
+    padding: 1% 1%;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.689);
+    border-radius: 15px;
+
+}
+
+.GroupEditCard-label {
+    display: block;
+    font-size: large;
+    text-align: left;
+}
+
+.GroupEditCard-input {
+    padding: 8px;
+    border-radius: 10px;
+    width: 50%;
+    display: block;
+    border: none;
+}
+
+.GroupEditCard-buttons  {
+    float: left;
+    margin-top: 15px;
+}
+
+.GroupEditCard-buttons button  {
+    height: 40px;
+    width: fit-content;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(3,3,90);
+    background-color: rgb(3,3,90);
+    color: white;
+    font-size: large;
+}
+
+.GroupEditCard-buttons button:hover {
+    cursor: pointer;
+    background-color: rgb(3,3,90,.79)
+}

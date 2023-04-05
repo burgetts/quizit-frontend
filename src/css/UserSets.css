@@ -1,0 +1,48 @@
+.NewSetCard {
+    background-color: white;
+    height: 100px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.NewSetCard a {
+    text-decoration: none;
+    color: black;
+}
+
+.NewSetButton {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    font-size: xxx-large;
+    float: left;
+    border: 1px solid white;
+    background-color: #6DCFF6;
+    color: white;
+    margin: 10px 20px;
+}
+
+.NewSetButton:hover{
+    cursor: pointer;
+    background-color: #53a2c1;
+    color: gray;
+
+}
+
+.NewSetText {
+    font-size: xx-large;
+    text-align: left;
+    padding-top: 25px;
+}
+
+.NewSetCard a:hover{
+    color: grey;
+}
+
+.NoNewSets {
+
+    color: white;
+    font-size: xx-large;
+    margin: 25px auto;
+  
+}

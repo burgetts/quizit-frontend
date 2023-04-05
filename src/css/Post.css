@@ -1,0 +1,212 @@
+.Post {
+    display: grid;
+    margin: 1% 5%;
+    background-color: rgba(255, 255, 255, 0.689);
+    border-radius: 15px;
+    min-height: 100px;
+    width: 75%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding: 25px 25px;
+}
+
+.Post-posted-by div{
+    font-size: xx-large;
+    float: left;
+    color: rgb(3,3,90);
+    grid-area: 1/1;
+    margin-left: 10px;
+}
+
+.Post-date-posted  div{
+    color: gray;
+    float: right;
+    margin-top: 0px;
+    grid-area: 1/2;
+    margin-right: 15px;
+}
+
+.Post-text {
+    grid-area: 2/1;
+}
+
+.Post-text div {
+    float: left;
+    margin-left: 15px;
+}
+
+.Post-text textarea {
+    float: left;
+    margin-left: 15px;
+    width: 75%;
+}
+
+.Post-reply-button {
+    grid-area: 2/2;
+}
+
+.Post-reply-button button,
+.Post-edit-button,
+.NewReply-cancel-button,
+.NewReply-post-button {
+    color: white;
+    background-color: rgb(3,3,90);
+    border: 1px solid rgb(3,3,90);
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    grid-area: 2/2;
+    float: right;
+    margin-right: 15px;
+}
+
+.Post-reply-button button:hover,
+.Post-edit-button:hover,
+.Post-save-changes-button:hover,
+.Post-cancel-changes-button:hover,
+.Reply-edit-button:hover,
+.Reply-cancel-changes-button:hover,
+.Reply-save-changes-button:hover, 
+.NewReply-post-button:hover,
+.NewReply-cancel-button:hover
+  {
+    cursor: pointer;
+    background-color: rgb(3,3,90,.79);
+}
+
+.Post-delete-button {
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    grid-area: 2/2;
+    float: right;
+    margin-right: 15px;
+}
+
+.Post-delete-button:hover,
+.Reply-delete-button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.791);
+}
+
+.Post-save-changes-button {
+    color: white;
+    background-color: rgb(3,3,90);
+    border: 1px solid rgb(3,3,90);
+    height: 30px;
+    width: 115px;
+    border-radius: 5px;
+    grid-area: 2/2;
+    float: right;
+    margin-right: 15px;
+}
+
+.Post-cancel-changes-button {
+    color: white;
+    background-color: rgb(3,3,90);
+    border: 1px solid rgb(3,3,90);
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    grid-area: 2/2;
+    float: right;
+    margin-right: 15px;
+}
+
+.Reply {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 30%;
+    margin-top: -1%;
+    background-color: rgba(255, 255, 255, 0.188);
+    border-radius: 15px;
+    min-height: 100px;
+    width: 50%;
+    padding: 25px 25px;
+    margin-bottom: 1%;
+}
+
+.Reply-posted-by div {
+    color: rgb(3,3,90);
+    float: left;
+    font-size: large;
+}
+
+.Reply-text div {
+    color: rgb(3,3,90);
+    float: left;
+}
+
+.Reply-date-posted div {
+    float: right;
+    color: darkgrey; 
+}
+
+.Reply-buttons button{
+    float: right;
+}
+
+.Reply-edit-button,
+.Reply-cancel-changes-button {
+    color: white;
+    background-color: rgb(3,3,90);
+    border: 1px solid rgb(3,3,90);
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.Reply-delete-button {
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.Reply-text textarea {
+    float: left;
+    width: 100%;
+}
+
+.Reply-save-changes-button {
+    color: white;
+    background-color: rgb(3,3,90);
+    border: 1px solid rgb(3,3,90);
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.NewReply {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 30%;
+    margin-top: -1%;
+    background-color: rgba(255, 255, 255, 0.188);
+    border-radius: 15px;
+    min-height: 100px;
+    width: 50%;
+    padding: 25px 25px;
+    margin-bottom: 1%;
+}
+
+.NewReply-text textarea{
+   width: 50%;
+   height: 100%;
+   float: left;
+   font-family: Jost;
+}
+
+.NewReply-buttons button{
+   float: right;
+}

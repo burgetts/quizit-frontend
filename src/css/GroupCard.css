@@ -1,0 +1,40 @@
+.GroupCard {
+    background-color: white;
+    font-size: large;
+    height: 160px;
+    width: 80%;
+    margin: 2% auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    text-decoration: none;
+    justify-items: top;
+    text-decoration: none;
+    color: black;
+}
+
+.GroupCard-group-picture {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.GroupCard-name {
+    font-size: xx-large;
+    float: left;
+    margin-left: 10px;
+}
+
+.GroupCard-description {
+    color: grey;
+    float: left;
+    margin-left: 90px;
+    margin-top: -25px;
+}
+
+.GroupCard-button button{
+    float: right;
+}

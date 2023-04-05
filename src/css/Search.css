@@ -1,0 +1,27 @@
+.Search {
+    width: 100%;
+    margin: 2% auto;
+}
+.Search input {
+   width: 75%;
+   height: 40px;
+   font-size: medium;
+   padding: 3px;
+   border: 1px solid gray;
+   border-radius: 5px;
+}
+
+.Search button {
+    width: 5%;
+    height: 43px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: large;
+
+}
+
+input:focus {
+    outline: none;
+}

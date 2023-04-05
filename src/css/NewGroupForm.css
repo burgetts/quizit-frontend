@@ -1,0 +1,52 @@
+.NewGroupForm-h1 {
+    text-align: left;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+
+.NewGroupForm-p {
+    text-align: left;
+    margin-left: 25px;
+}
+
+.NewGroupForm-container {
+    background-color: rgba(255, 255, 255, 0.689);
+    height: 400px;
+    width: 50%;
+    margin-left: 25px;
+    border-radius: 15px;
+    color: rgb(3,3,90);
+}
+
+.NewGroupForm-form {
+    margin-left: 25px;
+}
+.NewGroupForm-input {
+    display: block;
+    text-align: left;
+    width: 50%;
+    padding: 12px;
+    border-radius: 15px;
+}
+
+.NewGroupForm-label {
+    display: block;
+    text-align: left;
+}
+
+.NewGroupForm-button {
+    margin-top: 20px;
+    float: left;
+    height: 50px;
+    width: 25%;
+    border-radius: 15px;
+    background-color: rgb(3,3,90);
+    color: white;
+    border: 3px solid rgb(3,3,90);
+    font-size: large;
+}
+
+.NewGroupForm-button:hover {
+    background-color: rgba(3,3,90,.8);
+    cursor: pointer;
+}
