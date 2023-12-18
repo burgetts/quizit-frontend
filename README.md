@@ -1,8 +1,6 @@
 # QuizIt
 QuizIt is a platform where you can create and practice sets of flashcards with your study buddies. Groups allow users to chat with each other through posts and share sets of flashcards so you can ace your next test!
 
-Deployed here: https://guiltless-fowl.surge.sh/groups/2
-
 ## Demo credentials
 Use these credentials to check out the app without creating an account!
 - username: demouser
